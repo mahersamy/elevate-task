@@ -4,6 +4,7 @@ import { ProductDetailsComponent } from './features/components/product-details/p
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'product/:id', component: ProductDetailsComponent } // Dynamic route
+  { path: 'product/:id', component: ProductDetailsComponent },
+  { path:'**',redirectTo:''}
 ];
 
