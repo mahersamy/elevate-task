@@ -65,24 +65,6 @@ To deploy manually using Vercel CLI:
 ```bash
 vercel --prod
 ```
-
----
-
-## 🧪 Running Tests
-### ✅ Unit Tests
-Run unit tests using Karma:
-```bash
-ng test
-```
-### 🔎 End-to-End (E2E) Tests
-Run e2e tests:
-```bash
-ng e2e
-```
-> Note: Angular CLI does not include an e2e framework by default. Choose one that fits your project.
-
----
-
 ## 📚 Additional Resources
 - [Angular CLI Documentation](https://angular.dev/tools/cli)
 - [Angular Official Docs](https://angular.dev/)
